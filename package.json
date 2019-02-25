@@ -1,0 +1,28 @@
+{
+    "name": "optional-chaining-plugin",
+    "version": "1.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "ts-node -C ttypescript test.ts",
+        "prepublishOnly": "rm -rf dist && tsc"
+    },
+    "keywords": [],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cevek/optional-chaining-plugin.git"
+    },
+    "files": [
+        "dist",
+        "transformer.js"
+    ],
+    "author": "cevek",
+    "license": "ISC",
+    "dependencies": {
+        "typescript": ">3.0.0"
+    },
+    "devDependencies": {
+        "ts-node": "^8.0.2",
+        "ttypescript": "^1.5.6"
+    }
+}
